@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "biPhase_2-rescue")(type "Legacy")(uri "${KIPRJMOD}/biPhase_2-rescue.lib")(options "")(descr ""))
+  (lib (name "custom_symbols")(type "KiCad")(uri "${KIPRJMOD}/custom_symbols/custom_symbols.kicad_sym")(options "")(descr ""))
+)
