@@ -1,5 +1,7 @@
 ## Pretty close to a clone of the Mu-Tron Bi-Phase stereo phase shifter
 
+### [SCHEMATIC](https://github.com/JordanAceto/bi_phase_semi_clone/blob/master/construction_docs/bi_phase_semi_clone_schematic.pdf)
+
 ### Features:
 - it's like a Bi-Phase, yay!
 - the audio path is very faithful
