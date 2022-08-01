@@ -6,7 +6,7 @@
 
   (title_block
     (title "Mu-Tron Bi-Phase near-clone")
-    (date "2022-01-14")
+    (date "2022-08-01")
     (rev "0")
     (comment 2 "creativecommons.org/licenses/by/4.0/")
     (comment 3 "License: CC by 4.0")
@@ -988,7 +988,7 @@
     (uuid b1ec29d8-ef81-4ed8-8963-23c22c0054bd)
   )
 
-  (symbol (lib_id "Device:LED") (at 194.31 111.76 90)
+  (symbol (lib_id "Device:LED") (at 194.31 111.76 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 0a495fc7-6588-4e24-805f-df47cb266210)
     (property "Reference" "D7" (id 0) (at 198.12 112.0774 90)
@@ -1007,7 +1007,7 @@
     (pin "2" (uuid 6ffd67ff-7de1-4cae-a1f4-c140a866fc7c))
   )
 
-  (symbol (lib_id "Device:C") (at 114.3 109.22 0)
+  (symbol (lib_id "Device:C") (at 114.3 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 0d002c39-a642-47ea-adf5-3fa01375e789)
     (property "Reference" "C40" (id 0) (at 118.11 107.9499 0)
@@ -1026,7 +1026,7 @@
     (pin "2" (uuid 6e8164c2-beac-4dc4-b4d0-9607074cdbd5))
   )
 
-  (symbol (lib_id "power:GND") (at 148.59 97.79 0)
+  (symbol (lib_id "power:GND") (at 148.59 97.79 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 0e0355ca-cef6-4f4e-a821-2e2f7560066f)
     (property "Reference" "#PWR078" (id 0) (at 148.59 104.14 0)
@@ -1042,7 +1042,7 @@
     (pin "1" (uuid 6bafd6e6-4da6-4fe7-8edb-d8bd5cdd9834))
   )
 
-  (symbol (lib_id "power:GND") (at 114.3 115.57 0)
+  (symbol (lib_id "power:GND") (at 114.3 115.57 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 0e7db1c6-8829-4020-9d9b-1022ffce8ec5)
     (property "Reference" "#PWR075" (id 0) (at 114.3 121.92 0)
@@ -1058,7 +1058,7 @@
     (pin "1" (uuid e667d0d3-7893-454b-81d8-f0219f80dfd0))
   )
 
-  (symbol (lib_id "Device:R") (at 114.3 96.52 0)
+  (symbol (lib_id "Device:R") (at 114.3 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 23dfc278-b387-4f70-a275-efdc5502f189)
     (property "Reference" "R108" (id 0) (at 116.84 95.2499 0)
@@ -1077,7 +1077,7 @@
     (pin "2" (uuid 519de6a2-ec31-451c-a8f4-2ea475815368))
   )
 
-  (symbol (lib_id "custom_symbols:SSI2164") (at 127 90.17 0)
+  (symbol (lib_id "custom_symbols:SSI2164") (at 127 90.17 0) (unit 4)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 5563dff1-b3a1-4c50-8183-0269cf78b726)
     (property "Reference" "U14" (id 0) (at 129.54 80.01 0))
@@ -1088,12 +1088,25 @@
     (property "Datasheet" "https://www.soundsemiconductor.com/downloads/ssi2164datasheet.pdf" (id 3) (at 129.54 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "2" (uuid 63e41af3-d7cb-46f3-853a-3c3cab1ebc43))
+    (pin "3" (uuid f4053653-58eb-48b2-bad5-c764d7d56b96))
+    (pin "4" (uuid 1cedcf65-d49c-4cfa-bf5e-c3520212fd1d))
+    (pin "5" (uuid 661ca9c8-fac9-49cf-9560-82053900c0a9))
+    (pin "6" (uuid a53e3e85-0f2a-4de3-9ffa-0baaf0eee8b3))
+    (pin "7" (uuid 467c289d-195f-42b7-8622-e81524db4f05))
+    (pin "10" (uuid 407e0d6f-9eae-45ff-a78a-59037c4596f2))
+    (pin "11" (uuid 0a259e3c-6b26-47ba-8214-80bbe443a9fd))
+    (pin "12" (uuid f68fe1ba-9714-4b5d-93e8-70a6d385fc41))
     (pin "13" (uuid 5afbbb70-ae34-4338-89f1-b0323dfb5ab9))
     (pin "14" (uuid 7c80bcf1-0d19-4268-8501-4bd132f9a5d5))
     (pin "15" (uuid fed2c489-1f8a-4634-86eb-bc1c2df607fc))
+    (pin "1" (uuid b781117b-d810-4ffc-aa33-31e8b18e6705))
+    (pin "16" (uuid b06fb4cc-c675-4ac5-a06d-c74b6f7810c4))
+    (pin "8" (uuid 6f3bef6b-0e4c-4418-8165-7d4ea0b08533))
+    (pin "9" (uuid f7416cfb-a6bc-42ef-8c42-e2d7c7592664))
   )
 
-  (symbol (lib_id "power:GND") (at 87.63 96.52 0)
+  (symbol (lib_id "power:GND") (at 87.63 96.52 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 6c35db39-8fd9-454e-a60a-0d52127ea605)
     (property "Reference" "#PWR074" (id 0) (at 87.63 102.87 0)
@@ -1109,7 +1122,7 @@
     (pin "1" (uuid 92750d6b-144a-4a5f-ab29-36b363ca79ef))
   )
 
-  (symbol (lib_id "power:GND") (at 129.54 68.58 0)
+  (symbol (lib_id "power:GND") (at 129.54 68.58 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 6f300669-1795-4201-8028-141e1db53d07)
     (property "Reference" "#PWR077" (id 0) (at 129.54 74.93 0)
@@ -1125,7 +1138,7 @@
     (pin "1" (uuid 6b7d2e38-e01e-49f9-96f3-bfc8b41c8aaf))
   )
 
-  (symbol (lib_id "Diode:1N4148") (at 181.61 82.55 270)
+  (symbol (lib_id "Diode:1N4148") (at 181.61 82.55 270) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 7d7257db-05f6-48b1-bef0-19443101cda8)
     (property "Reference" "D5" (id 0) (at 184.15 81.2799 90)
@@ -1144,7 +1157,7 @@
     (pin "2" (uuid 68029762-9c5c-4300-81cb-e8fdd8f00948))
   )
 
-  (symbol (lib_id "biPhase_2-rescue:BC560") (at 191.77 90.17 0) (mirror x)
+  (symbol (lib_id "biPhase_2-rescue:BC560") (at 191.77 90.17 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 86becbaa-e665-412a-bc94-942527e04e38)
     (property "Reference" "Q2" (id 0) (at 196.85 88.265 0)
@@ -1164,7 +1177,7 @@
     (pin "3" (uuid 307e4de3-08a7-4302-adf8-f45e0e462aed))
   )
 
-  (symbol (lib_id "Device:LED") (at 194.31 101.6 90)
+  (symbol (lib_id "Device:LED") (at 194.31 101.6 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 9a69a846-3d17-48f5-84a0-72152675b977)
     (property "Reference" "D6" (id 0) (at 198.12 101.9174 90)
@@ -1183,7 +1196,7 @@
     (pin "2" (uuid 5add1840-c246-404c-96db-a6e028a6e286))
   )
 
-  (symbol (lib_id "Device:R") (at 106.68 90.17 90)
+  (symbol (lib_id "Device:R") (at 106.68 90.17 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 9b3e5dd3-2455-4c7b-a827-9a4342e497e4)
     (property "Reference" "R107" (id 0) (at 106.68 85.09 90))
@@ -1198,7 +1211,7 @@
     (pin "2" (uuid 28bbf433-32c8-4bdd-8a2c-cf22cc1178d5))
   )
 
-  (symbol (lib_id "power:+15V") (at 129.54 55.88 0)
+  (symbol (lib_id "power:+15V") (at 129.54 55.88 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 9c1a62c3-0e14-46f5-8719-b50fff45621e)
     (property "Reference" "#PWR076" (id 0) (at 129.54 59.69 0)
@@ -1214,7 +1227,7 @@
     (pin "1" (uuid ca91b3a5-5ca2-439c-be4f-70bd42409533))
   )
 
-  (symbol (lib_id "power:-15V") (at 194.31 128.27 180)
+  (symbol (lib_id "power:-15V") (at 194.31 128.27 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 9d1a54d7-80c5-4bc5-a18f-43159adc8a2a)
     (property "Reference" "#PWR080" (id 0) (at 194.31 130.81 0)
@@ -1230,7 +1243,7 @@
     (pin "1" (uuid a5b5f93a-b60b-4638-ba19-90f41811b754))
   )
 
-  (symbol (lib_id "Device:R") (at 194.31 68.58 0)
+  (symbol (lib_id "Device:R") (at 194.31 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid a52eeab0-834e-4797-bd37-3ee6858cb926)
     (property "Reference" "R113" (id 0) (at 196.85 67.3099 0)
@@ -1249,7 +1262,7 @@
     (pin "2" (uuid 7af58f61-7ca6-48fa-bd09-130ae7e199c5))
   )
 
-  (symbol (lib_id "Device:R") (at 175.26 90.17 90)
+  (symbol (lib_id "Device:R") (at 175.26 90.17 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid ac4cb0c3-739d-41f6-8885-2d8dcde876d9)
     (property "Reference" "R112" (id 0) (at 175.26 85.09 90))
@@ -1264,7 +1277,7 @@
     (pin "2" (uuid d5a9a954-f5eb-4e64-93e9-92e52825ffd8))
   )
 
-  (symbol (lib_id "Device:R") (at 142.24 62.23 90)
+  (symbol (lib_id "Device:R") (at 142.24 62.23 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid b934047f-4df9-4bbb-ba10-48961c703f66)
     (property "Reference" "R110" (id 0) (at 142.24 57.15 90))
@@ -1279,7 +1292,7 @@
     (pin "2" (uuid 5cd9bb33-de0a-4b07-8d22-9e1fbcec64b2))
   )
 
-  (symbol (lib_id "Device:R_Potentiometer_Trim") (at 87.63 90.17 0) (mirror x)
+  (symbol (lib_id "Device:R_Potentiometer_Trim") (at 87.63 90.17 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid bce5ae87-59d2-434b-9c22-3fad946a577b)
     (property "Reference" "RV11" (id 0) (at 85.09 88.8999 0)
@@ -1299,7 +1312,7 @@
     (pin "3" (uuid 3eb64f2c-01e6-42da-acd1-a91a4775c552))
   )
 
-  (symbol (lib_id "Device:R") (at 158.75 81.28 90)
+  (symbol (lib_id "Device:R") (at 158.75 81.28 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid bd13c0e8-85cc-447d-a93f-f4121d2c3b1b)
     (property "Reference" "R111" (id 0) (at 158.75 76.2 90))
@@ -1314,7 +1327,7 @@
     (pin "2" (uuid 5141a4b1-0372-4d07-a082-18cadd7cbdc2))
   )
 
-  (symbol (lib_id "Device:R") (at 127 107.95 0)
+  (symbol (lib_id "Device:R") (at 127 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid c3741c52-30b4-4127-a3df-b86f642dd843)
     (property "Reference" "R109" (id 0) (at 129.54 106.6799 0)
@@ -1333,7 +1346,7 @@
     (pin "2" (uuid 6bc728c7-61ee-48c9-aa32-e402731f6672))
   )
 
-  (symbol (lib_id "Device:R_Potentiometer_Trim") (at 129.54 62.23 0) (mirror x)
+  (symbol (lib_id "Device:R_Potentiometer_Trim") (at 129.54 62.23 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid c3af6475-3cd0-459b-b325-80500023f76e)
     (property "Reference" "RV12" (id 0) (at 127 60.9599 0)
@@ -1353,7 +1366,7 @@
     (pin "3" (uuid 3395cfed-374a-4e0c-8377-24e2ae0b453c))
   )
 
-  (symbol (lib_id "power:GND") (at 182.88 64.77 0)
+  (symbol (lib_id "power:GND") (at 182.88 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid c4fd6504-7619-4c4b-aef0-9ac9cd2e32a5)
     (property "Reference" "#PWR079" (id 0) (at 182.88 71.12 0)
@@ -1369,7 +1382,7 @@
     (pin "1" (uuid c0ac58f3-caae-421d-b611-b0c3568fbc38))
   )
 
-  (symbol (lib_id "Device:R") (at 81.28 83.82 90)
+  (symbol (lib_id "Device:R") (at 81.28 83.82 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid f3a181cd-112f-437b-aac7-8019ea5b5d68)
     (property "Reference" "R106" (id 0) (at 81.28 78.74 90))
@@ -1384,7 +1397,7 @@
     (pin "2" (uuid d1570177-1bb6-435c-bede-fb44fcc7116c))
   )
 
-  (symbol (lib_id "Amplifier_Operational:TL072") (at 158.75 92.71 0) (mirror x)
+  (symbol (lib_id "Amplifier_Operational:TL072") (at 158.75 92.71 0) (mirror x) (unit 2)
     (in_bom yes) (on_board yes)
     (uuid fadc2141-9683-476b-8c1c-f9c47dea2a59)
     (property "Reference" "U16" (id 0) (at 161.29 97.79 0))
@@ -1395,12 +1408,17 @@
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf" (id 3) (at 158.75 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid b8df2c56-2a40-494d-9075-ec7a85472d53))
+    (pin "2" (uuid 2996c0de-e992-4d93-864c-9a9548eec49f))
+    (pin "3" (uuid 2966d55d-7070-4369-900e-f498f3b49f04))
     (pin "5" (uuid 2d402e91-d91b-4db2-a214-3a44425f0a2f))
     (pin "6" (uuid 3a432458-5e66-4c63-ae35-d17e4fef2b72))
     (pin "7" (uuid d55c5cef-0faf-4900-b5a1-e4ffe5ae9829))
+    (pin "4" (uuid 93c2eb51-75b0-4f72-b682-77dc7abc5ce1))
+    (pin "8" (uuid 3868ab92-b6f2-4d6d-9937-5fcdb0c60fcf))
   )
 
-  (symbol (lib_id "Device:LED") (at 194.31 121.92 90)
+  (symbol (lib_id "Device:LED") (at 194.31 121.92 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid fe410784-6d25-44dd-9a49-6f35c6ab256e)
     (property "Reference" "D8" (id 0) (at 198.12 122.2374 90)
